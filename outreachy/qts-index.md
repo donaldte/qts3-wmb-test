@@ -94,5 +94,4 @@ If the user is anonymous, a login link is displayed to allow them to authenticat
 The homepage of QuickStatements 3.0 serves as the primary hub for managing data on Wikidata. Through its user-friendly interface, it offers quick access to the core functionalities of the tool, such as creating new batches, viewing batch details, and managing user data submissions. The streamlined layout ensures that users can navigate efficiently, improving their experience with data management tasks.
 
 This documentation explains all the key features of the homepage, ensuring that users understand how to utilize the main tools available on QuickStatements 3.0.
-```
 
