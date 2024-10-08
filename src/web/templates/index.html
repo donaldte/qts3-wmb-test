@@ -1,4 +1,25 @@
 {% extends "layout.html" %}
+{% load static %}
+
+{% block css %}
+
+  /* custom-styles */
+
+  /* Override Pico CSS button styles */
+  a[role="button"],
+  input[type="submit"] {
+      background-color: blue !important;
+      /* Use !important to ensure it overrides existing styles */
+      color: white;
+      border-color: blue;
+  }
+
+  /* Optional: Change button hover and active states */
+  a[role="button"]:hover,
+  input[type="submit"]:hover {
+      background-color: darkblue !important;
+  }
+{% endblock %}
 
 {% block content %}
 
